@@ -1,0 +1,14 @@
+let
+   var i: Integer;
+   var n: Integer
+in
+   begin
+      getint(var n);
+      i := 1;
+      while i <= n do
+      begin
+         putint(i);
+         put(' ');
+         i := i+1
+      end   
+   end

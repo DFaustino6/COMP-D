@@ -1,0 +1,13 @@
+let
+   var i: Integer;
+   var n: Integer
+in
+   begin
+      getint(var n);
+      for i from 1 to n do
+      begin
+         putint(i*i);
+         put(' ');
+         i := i+1
+      end   
+   end
